@@ -268,19 +268,19 @@
 
                   <!-- CONTACT FORM -->
                   <div class="">
-                    <form id="contact-form" action="https://formspree.io/joel@idkjoel.co">
+                    <form id="contact-form" action="https://formspree.io/joel@idkjoel.co" method="POST">
 
                       <div class="row">
                         <div class="col-md-12 mb-30">
                           <!-- <label>Your name *</label> -->
-                          <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" placeholder="Name" required>
+                          <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" placeholder="Name" required>
                         </div>
                       </div>
 
                       <div class="row">
                         <div class="col-md-12 mb-30">
                           <!-- <label>Your email address *</label> -->
-                          <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="200" class="form-control" name="email" id="email" placeholder="Email" required>
+                          <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="200" class="form-control" name="_replyto" placeholder="Email" required>
                           </div>
                       </div>
 
@@ -295,16 +295,15 @@
                         <div class="col-md-12 ">
                           <input type="submit" value="Send" class="button medium gray" data-loading-text="Loading...">
                         </div>
+                      </div?
+
+                      <div>
+                        <input type="hidden" name="_subject" value="Website Contact" />
                       </div>
 
                     </form>
-                    <div class="alert alert-success hidden" id="contactSuccess">
-                      <strong>Success!</strong> Your message has been sent to us.
-                    </div>
 
-                    <div class="alert alert-danger hidden" id="contactError">
-                      <strong>Error!</strong> There was an error sending your message.
-                    </div>
+
                   </div>
                 </div>
               </div>
