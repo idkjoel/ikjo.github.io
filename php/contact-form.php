@@ -11,7 +11,7 @@ $to = 'joel@idkjoel.co';
 
 $subject = 'Mail From Site Form';
 
-if($to) {
+if(isset($_POST['email'])) {
 
 	$name = $_POST['name'];
 	$email = $_POST['email'];
