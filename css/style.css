@@ -5358,7 +5358,7 @@ button {
 	background-color:#ffea00;
 	color:#4b4e53;
 	border:none;
-	border-radius:2px;
+	border-radius:50px;
 	transition: all .3s ease 0s;
 /****	add in anim	*******/
 	outline: none;
@@ -10070,3 +10070,5 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .alignright {
 	float: right;
 }
+
+/* #JOEL FUCKS AROUND ***************************************************/
