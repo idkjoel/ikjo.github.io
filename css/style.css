@@ -286,8 +286,8 @@ body {
 }
 ::selection
 {
-	background-color: #ffea00;
-  color:#4b4e53;
+	background-color: #7d6ac4;
+  color:#f2f2f2;
 }
 ::-moz-selection
 {
@@ -5241,11 +5241,11 @@ hr.invisible {
 /***** #HIGHLIGHTS *****/
 .highlight-text, .highlight-text-grey {
 	background-color: #ffea00;
-  color:#4b4e53;
+  color:#37dd8a;
 	padding: 0 3px;
 }
 .highlight-text-grey {
-	background-color: #C0C0C0;
+	background-color: #999999;
 	color: #fff;
 }
 /***** #ICONS LIST *****/
