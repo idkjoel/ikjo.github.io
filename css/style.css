@@ -286,12 +286,12 @@ body {
 }
 ::selection
 {
-	background-color: #7d6ac4;
+	background-color: #666666;
   color:#f2f2f2;
 }
 ::-moz-selection
 {
-	background-color: #ffea00;
+	background-color: #666666;
   color:#4b4e53;
 }
 .relative {
@@ -5366,8 +5366,9 @@ button {
 
 }
 .button:hover {
-	background-color:#101010;
-	color:#fff;
+	background-color:#7d6ac4;
+  color:#f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: all .3s ease 0s;
 }
 .button.medium  {
@@ -5646,7 +5647,7 @@ button {
 	color:#d7d9dc;
 }
 .button.thin.gray-light:hover {
-	background-color:#d7d9dc;
+  background-color:#7d6ac4;
 	color:#fff;
 }
 .button.thin.deeporange {
@@ -5739,7 +5740,7 @@ button {
 	border-color: #d7d9dc;
 }
 .button.gray-light.hover-thin:hover {
-	background:none;
+  background-color:#7d6ac4;
 	border: 2px solid #d7d9dc;
 	color:#4b4e53;
 }
@@ -6226,7 +6227,7 @@ a:focus {
 .highlight {
 	font-family: 'Usual',Arial,Helvetica,sans-serif;
 	font-weight:300;
-	color:#4b4e53;
+	color:#333333;
   display:block;
 	float:left;
 	overflow:hidden;
@@ -8328,12 +8329,14 @@ h2.portfolio-timeline-title {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 50px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .owl-next{
   border-top-left-radius: 50px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 0px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .owl-white-bg .owl-prev,
