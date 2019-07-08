@@ -2814,14 +2814,14 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   font-size: 36px;
   line-height: 37px;
   letter-spacing: 1.5px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .page-title-font-big {
   margin-bottom:0px;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 10px;
-  font-weight: 600;
+  font-weight: 700;
   /* color:#6f7175; */
   text-transform:uppercase;
 }
