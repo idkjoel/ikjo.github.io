@@ -5100,6 +5100,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #4b4e53;
 	margin: 0;
 }
+h7 {
+	color: #777777;
+	margin: 0;
+}
 h1 {
 	font-size: 32px;
 	line-height: 45px;
@@ -5131,8 +5135,15 @@ h5 {
 h6 {
 	font-size: 12px;
 	letter-spacing: normal;
-	line-height: 18px;
+	line-height: 12px;
 	margin: 18px 0 13px 0;
+}
+h7 {
+	font-size: 12px;
+  font-style: italic;
+	letter-spacing: normal;
+	line-height: 12px;
+	margin: 0;
 }
 .heading-line {
 	position:relative;
