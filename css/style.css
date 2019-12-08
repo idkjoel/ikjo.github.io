@@ -227,7 +227,10 @@ footer, header, hgroup, menu, nav, section {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-  font-size: 80%;
+  border: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 100%;
 }
 html,body{
 	margin:0;
@@ -236,7 +239,10 @@ html,body{
 table {
 	border-collapse:collapse;
 	border-spacing:0;
-  font-size: 80%;
+  border: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 100%;
 }
 fieldset,img {
 	border:0;
@@ -5089,8 +5095,7 @@ h1-white{
 }
 h1-white{
   font-size: 36px;
-	line-height: 56px;
-	margin: 40px 0 32px 0;
+  line-height: 48px;
 }
 h1, h2, h3{
   font-family: 'proxima-soft',Helvetica,sans-serif;
@@ -5402,7 +5407,7 @@ button {
 .button:hover {
 	background-color:#7d6ac4;
   color:#f2f2f2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 	transition: all .3s ease 0s;
 }
 .button.medium  {
@@ -5587,7 +5592,7 @@ button {
 	padding: 13px 17px 13px 17px;
 	background-color:transparent;
 	color:#7a7b80;
-	border: 2px solid #c5c2c2;
+	border: 3px solid #999999;
 	transition: all .3s ease 0s;
 }
 .button.small.thin {
@@ -5603,7 +5608,7 @@ button {
 .button.thin:hover {
 	background-color:#d7d9dc;
 	color:#4b4e53;
-	border: 2px solid #d7d9dc;
+	border: 3px solid #d7d9dc;
 	transition: all .3s ease 0s;
 }
 .button.thin.hover-dark:hover {
@@ -5683,6 +5688,14 @@ button {
 .button.thin.gray-light:hover {
   background-color:#7d6ac4;
 	color:#fff;
+}
+.button.thin.portfolio {
+  border-color:#d7d9dc;
+  color:#999999;
+}
+.button.thin.portfolio:hover {
+  background-color:#ffffff;
+  color:#999999;
 }
 .button.thin.deeporange {
 	border-color:#ff5722;
@@ -6091,6 +6104,8 @@ a:focus {
 .p-25 {padding:25px;}
 .p-40 {padding:40px;}
 
+.pt-10 {padding-top:10px;}
+.pt-15 {padding-top:15px;}
 .pt-20 {padding-top:20px;}
 .pt-30 {padding-top:30px;}
 .pt-36 {padding-top:36px;}
@@ -6109,6 +6124,9 @@ a:focus {
 .pt-250 {padding-top:250px;}
 
 .pr-0 {	padding-right:0 !important;}
+.pr-20{padding-right:20px;}
+.pr-30{padding-right:30px;}
+.pr-40{padding-right:40px;}
 .pr-75{padding-right:75px;}
 
 .pb-0 {	padding-bottom:0px !important;}
@@ -6128,6 +6146,8 @@ a:focus {
 
 .pl-0 {padding-left:0 !important;}
 .pl-20 {padding-left:20px;}
+.pl-30 {padding-left:30px;}
+.pl-40 {padding-left:40px;}
 
 .plr-0 {padding-left:0 !important;	padding-right:0 !important;}
 .plr-1 {padding-left: 1px; padding-right: 1px;}
@@ -6159,6 +6179,11 @@ a:focus {
   .page-title-small .breadcrumbs, .breadcrumbs  {
     margin-top: 0px;
     text-align:left;
+  }
+  h1-white{
+    font-size: 24px;
+    line-height: 36px;
+    margin: 40px 0 32px 0;
   }
 }
 @media (max-width: 767px) {
@@ -10150,4 +10175,55 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   font-weight: 300;
   font-size: 18px;
   margin: 0;
+}
+
+.folio-description {
+  background-color: #eee;
+}
+
+.folio-description-title {
+  font-family: 'proxima-soft',Helvetica,sans-serif;
+  color: #4b4e53;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.button.full-width  {
+	padding: 10px 37px 10px 37px;
+	display: block;
+  text-align:center;
+  margin: auto;
+  width:80%;
+}
+
+.button.view-more  {
+	padding: 10px 37px 10px 37px;
+	display: block;
+  text-align:right;
+  margin: auto;
+  width:80%;
+}
+
+.button.full-width-compare  {
+	font-size:14px;
+	line-height:36px;
+	padding:0px 16px 0px 16px;
+	display:inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:90%;
+}
+.abt-icon {
+  color: #7e8082;
+  font-size: 48px;
+}
+.bg-dot-grid {
+  background-image: url(https://github.com/idkjoel/ikjo.github.io/blob/master/images/dot-bg.png?raw=true);
+  background-repeat: repeat;
+  background-position: center top;
+}
+.footer-link {
+  color: #ffffff;
 }
