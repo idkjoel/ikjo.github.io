@@ -1719,10 +1719,10 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 	list-style: none;
 	padding: 0;
 	margin: 0 0 45px 0;
-	font-size: 13px;
+	font-size: 16px;
 	text-transform: uppercase;
 	/* text-align: center; */
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	color: #555;
 	cursor: default;
 }
@@ -2578,13 +2578,13 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .cis-text h3 {
   color: #4b4e53;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 30px;
   margin: 0;
 }
 .cis-text p {
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* #GMAPS 1 #NEW
@@ -5706,11 +5706,11 @@ button {
 	color:#fff;
 }
 .button.thin.green {
-	border-color:#259b24;
-	color:#259b24;
+	border-color:#203A2C;
+	color:#ff5722;
 }
 .button.thin.green:hover {
-	background-color:#259b24;
+	background-color:#1C3024;
 	color:#fff;
 }
 .button.thin.lime {
@@ -5897,7 +5897,7 @@ button {
 	background-color: #d7d9dc;
 }
 .button.gray-light:hover {
-	background-color:#4b4e53;
+	background-color:#3E594A;
   color:#fff;
 	cursor:pointer;
 }
@@ -5911,10 +5911,10 @@ button {
 }
 .button.green {
 	color:#fff;
-	background-color:#259b24;
+	background-color:#3E594A;
 }
 .button.green:hover {
-	background-color:#4b4e53;
+	background-color:#1C3024;
 	cursor:pointer;
 }
 .button.lime {

@@ -193,29 +193,13 @@
 				  <!-- END header-wrapper -->
 
           <!-- PAGE TITLE LARGE IMG -->
-          <div id="bio-top" class="page-title-cont page-title-large grey-dark-bg page-title-img  pt-250" style="background-image: url(images/statics/header.jpg)">
-            <div class="relative container align-left">
-              <div class="row">
+          <div id="bio-top" class="page-title-cont page-title-big grey-dark-bg page-title-img" style="background-image: url(images/statics/header.jpg)">
 
-                <div class="col-md-8">
-                  <h1 class="page-title">  </h1>
-                  <div class="page-sub-title">
-
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="breadcrumbs">
-                    <a href="index.html">HOME</a><span class="slash-divider">/</span>404
-                  </div>
-                </div>
-
-              </div>
             </div>
           </div>
 
         <!-- COTENT CONTAINER -->
-        <div class="container p-140-cont">
+        <div class="container p-80-cont">
 
           <div class="row mb-40">
             <div class="col-md-12 text-center">
@@ -297,17 +281,21 @@
         </div>
 
         <!-- CALL TO ACTION 2 -->
-        <div class="page-section grey-light-bg pt-80-b-50-cont">
+        <div class="page-section grey-light-bg p-50-cont">
           <div class="container">
             <div class="row">
 
-              <div class="col-md-9 pb-30">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+              <img alt="client" src="images/header-image.png"></img>
+            </div>
+
+              <div class="col-md-5 col-sm-12 col-xs-12 pt-40 pl-30 pr-30">
                 <h4 class="mt-0 mb-5"><span class="bold">Have a design problem of your own?</span></h4>
                 <span>I encourage you to get in touch; I'd love to chat about what your solution could look like.</span>
               </div>
 
-              <div class="col-md-3 text-right pb-30">
-                <a class="button medium gray-light" href="http://idkjoel.co/connect">Connect</a>
+              <div class="col-md-3 col-md-offset-2 col-sm-12 col-xs-12 text-right pt-50">
+                <a class="button full-width gray-light" href="http://idkjoel.co/connect">Connect</a>
               </div>
 
             </div>
@@ -347,8 +335,8 @@
                 </ul>
               </div>
               <div class="col-md-6 widget">
-                <h4><color="#222222">Who is Joel?</h4>
-                <ul class ="links-list a-text-cont">Joel is a designer and student attending Wilfrid Laurier University. He's interested in things like music, art, sports and technology, and especially the way they all interact with each other. He is writing this in third person to sound more professional considering this website is meant to be capital-S Serious. You can reach Joel at any of the options listed on <a href="http://idkjoel.co/connect">this connection page.</a>
+                <h4><color="#222222">About Joel</h4>
+                <span>Joel is a designer and student attending Wilfrid Laurier University. He's interested in working on projects and teams focused on making things better with a human-centred approach. He is writing this in third person to sound more professional, considering this website is meant to be capital-S Serious. You can reach Joel at any of the options listed on <a href="http://idkjoel.co/connect"><span class="italic" style="color:white">this connection page.</span></a></span>
               </div>
             </div>
 
@@ -362,7 +350,7 @@
 
               <!-- Copyright -->
               <div class="left">
-                <a class="footer-2-copy" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">&copy; 2015-2019 / Joel Schellenberger</a>
+                <a class="footer-2-copy" href="https://www.youtube.com/watch?v=EErSKhC0CZs" target="_blank">&copy; 2015-2020 / Joel Schellenberger</a>
               </div>
 
 
@@ -371,27 +359,29 @@
           </div>
         </footer>
 
-				<!-- BACK TO TOP -->
-				<p id="back-top">
+        <!-- BACK TO TOP -->
+        <p id="back-top">
           <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
         </p>
 
-			</div><!-- End BG -->
-		</div><!-- End wrap -->
+      </div><!-- End BG -->
+    </div><!-- End wrap -->
 
-<!-- JS begin -->
+  <!-- JS begin -->
 
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <!-- jQuery  -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
+    <!-- MAGNIFIC POPUP -->
+    <script src='js/jquery.magnific-popup.min.js'></script>
 
     <!-- PORTFOLIO SCRIPTS -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
 
     <!-- COUNTER -->
     <script type="text/javascript" src="js/jquery.countTo.js"></script>
@@ -402,10 +392,45 @@
     <!-- OWL CAROUSEL -->
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 
+    <!-- PARALLAX -->
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+
+    <!-- TEXT ROTATOR -->
+    <script type="text/javascript" src="js/text-rotator.js"></script>
+
+    <!-- ONE PAGE NAV -->
+    <script src="js/jquery.nav.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      //ONE PAGE NAV	---------------------------------------------------------------------------
+      var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+      $('#nav-onepage').onePageNav({
+        currentClass: 'current',
+        changeHash: false,
+        scrollSpeed: 700,
+        scrollOffset: top_offset,
+        scrollThreshold: 0.5,
+        filter: '',
+        easing: 'swing',
+        begin: function() {
+          //I get fired when the animation is starting
+        },
+        end: function() {
+          //I get fired when the animation is ending
+        },
+        scrollChange: function($currentListItem) {
+          //I get fired when you enter a section and I pass the list item of the section
+        }
+      });
+
+      });//END document.ready
+    </script>
+
     <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 
-<!-- JS end -->
+  <!-- JS end -->
 
-	</body>
-</html>
+  </body>
+  </html>
